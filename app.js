@@ -185,5 +185,5 @@ app.get("/about", function(req, res) {
 });
 
 app.listen(port, function() {
-  console.log("Server is active at http://localhost" + port);
+  console.log("Server is active at http://localhost:" + port);
 });
